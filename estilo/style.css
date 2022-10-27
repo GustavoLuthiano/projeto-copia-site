@@ -1,0 +1,269 @@
+@charset "UTF-8";
+
+:root{
+    --cor0: #0abae7;
+    --cor1: #068DAF;
+    --cor2: #f4f1ee;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: arial;
+    transition: .1s;
+}
+
+header{
+    text-align: center;
+}
+
+header > div > img{
+    display: block;
+    margin: auto;
+    width: 200px;
+    padding: 20px;
+}
+
+header > span{
+    display: block;
+    padding: 10px;
+    background-color: var(--cor2);
+    width: 100%;
+    cursor: pointer;  
+}
+
+header > span:hover{
+    background-color: var(--cor1);
+    transition-duration: .3s;
+    color: var(--cor2);
+}
+
+header > div > menu > ul{
+    border-bottom: 1px solid #b6b3b174;
+    list-style: none;
+}
+
+header a{
+    display: block;
+    padding: 6.7px;
+    text-decoration: none;
+    color: black;
+    background-color: #e8e4e074;
+    border-top: 1px solid #98969474;
+}
+
+header a:hover{
+    background-color: var(--cor1);
+    transition-duration: .3s;
+    color: white;    
+}
+
+nav {
+    text-align: center;
+    background-color: var(--cor2);
+    padding: 20px;
+}
+
+nav > a {
+    text-decoration: none;
+    border: 1px solid var(--cor1);
+    color: var(--cor1);
+    padding: 10px;
+    border-radius: 40px;
+}
+
+nav > a:hover{
+    background-color: var(--cor1);
+    color: var(--cor2);
+    transition-duration: .4s;
+}
+
+section#intro{
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor0));
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 30px 0px 40px 0px;
+}
+
+section#intro > p {
+    text-align: center;
+    color: white;
+    text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.29);
+    padding: 5px 10px ;
+    line-height: 1.5em;
+    max-width: 900px;
+    margin: auto;
+}
+
+#esconder{
+    display: none;
+}
+
+div#servicos{
+    text-align: center;
+}
+
+div.servicos{
+    display: inline-block;
+    padding: 15px;
+}
+
+div.servicos > h2 {
+    background-color: white;
+    color: var(--cor1);
+    display: block;
+    margin: auto;
+    padding: 20px;
+    font-weight: 100;
+    font-family: serif;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.211);
+    border-radius: 5px 5px 0px 0px;
+}
+
+div.servicos > img{
+    width: 380px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.211);
+    border-radius: 0px 0px 5px 5px;
+}
+
+section#intro > h2 {
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+section#sobre{
+    background-color: white;
+    text-align: center;
+    padding: 40px 0px;
+}
+
+section#sobre img{
+    width: 95%;
+    max-width: 600px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.211);
+    border-radius: 5px;
+}
+
+div#conteudo{
+    margin: auto;
+    width: 85%;
+}
+
+section#sobre h1{
+    padding: 10px 0px 0px;
+    color: var(--cor1);
+    font-family: serif;
+    font-size: 1.8em;
+}
+
+section#sobre h2 {
+    text-align: center;
+    font-weight: normal;
+    font-size: 1.1em;
+    padding-top: 15px;
+}
+
+section#sobre p{
+    padding-top: 5px;
+    font-size: 0.8em;
+}
+
+section#contato{
+    text-align: center;
+    padding: 15px 0px;
+}
+
+section#contato > h2{
+    padding-bottom: 10px;
+    font-size: 1.7em;
+    font-weight: lighter;
+    font-family: serif;
+    color: var(--cor1);
+}
+
+section#contato > p {
+    padding: 30px 0px;
+}
+
+section#contato > a{
+    text-decoration: none;
+    border: 1px solid var(--cor1);
+    color: var(--cor1);
+    padding: 10px;
+    border-radius: 40px;
+}
+
+section#contato > a:hover{
+    background-color: var(--cor1);
+    transition-duration: .3s;
+    color: var(--cor2);
+}
+
+section#contato > p > a{
+    text-decoration: none;
+    color: black;
+}
+
+section#contato > p > a:hover{
+    text-decoration: underline;
+}
+
+section#mapa{
+    padding: 15px 0px;  
+}
+
+section#mapa > iframe{
+    width: 100%;
+    display: block;
+    margin: auto;
+    padding: 15px 0px;
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor0));
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section#mapa > img{
+    display: block;
+    margin: auto;
+    padding: 40px 0px 30px 0px;
+}
+
+footer{
+    text-align: center;
+}
+
+footer > address{
+    padding: 0px 10px;
+}
+
+footer > span{
+    display: block;
+    padding: 20px;
+}
+
+footer > span > a{
+    padding: 0px 5px;
+}
+
+footer > a{
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+footer > a:hover{
+    text-decoration: underline;
+}
+
+footer > p{
+    padding: 30px 0px;
+    font-size: 0.8em;
+}
+
+footer > p > a{
+    color: var(--cor1);
+    font-weight: bold;
+}

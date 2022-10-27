@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+header > div > img{
+    width: 90%;
+}
+
+div.menu{
+    width: 40%;
+}
+
+header.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header > div > menu > ul{
+    border-bottom: none;
+    
+}
+
+li{
+    display: inline-block;
+}
+
+li > a{
+    background-color: white;
+    border: none;
+}
+
+li > a:hover{
+    background-color: white;
+    color: black;
+    text-decoration: underline;
+}
+
+span#burger{
+    display: none;
+}
+
+section#intro > p#esconder{
+    padding: 20px;
+    display: block;
+}
+
+div#servicos{
+    padding: 10px;
+    width: 100%;
+}
+div.servicos{
+    padding: 5px;
+    max-width: 300px;
+}
+
+div.servicos > img{
+    width: 100%;
+}
+
+section#sobre{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+section#sobre > img{
+    width: 400px;
+}
+
+section#sobre > div{
+    padding: 15px;
+    text-align: left;
+}
+
+section#sobre h2{
+    text-align: left;
+}
+
+section#sobre p {
+    text-indent: 11px;
+}
